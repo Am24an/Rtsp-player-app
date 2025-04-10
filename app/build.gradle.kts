@@ -49,5 +49,10 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    implementation (libs.androidx.media3.media3.exoplayer2)
+    implementation (libs.androidx.media3.exoplayer.rtsp)
+    implementation (libs.androidx.media3.ui)
+
     implementation(libs.libvlc.all)
 }
